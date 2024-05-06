@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,.5);
+    background-color: skyblue;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+    color: white !important;
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+#navbarSupportedContent button{
+    background: white;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 6cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)) ,url(img/grocery2.jpg);
+    background-size:cover;
+    background-position: center;
+    flex-direction:column ;
+    
+    }
+    #home h1{
+        font-size: 70px;
+        text-align: center;
+        
+        color: white;
+        letter-spacing: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 0px #ccc,
+                     0px 2px 0px #ccc,
+                     0px 3px 0px #ccc,
+                     0px 4px 0px #ccc,
+                     0px 5px 0px #ccc,
+                     0px 6px 0px #ccc,
+                     0px 7px 0px #ccc,;
+                     text-align: center;
+                   
+    }
+    #home .input-group{
+        width: 40%;
+        height: 45px;
+        
+    }
+    .sigin{
+        background:skyblue !important;
+        color: white;
+        box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    }
+    #product{
+        background: #e5e5e5;
+        
+    }
+    #product h1{
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    #product img{
+        width: 200px;
+        height: 200px;
+    }
+    .card{
+        width: 180px;
+        height: 250px;
+       border: none !important;
+       border-radius: 10px!important;
+       overflow: hidden;
+       text-align: center;
+       justify-content: center;
+       margin: 20px 20px;
+        
+      
+      
+       
+    }
+    .card-title a{
+        text-decoration: none;
+       color: black;
+    }
+    .card :hover{
+        color: green;
+        cursor: pointer;
+    }
+    .bu{
+        background-color: skyblue;
+        border-color: skyblue;
+        border-radius: 19px;
+        box-shadow: black;
+    }
+.about  {
+    max-width: 180px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(21rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+

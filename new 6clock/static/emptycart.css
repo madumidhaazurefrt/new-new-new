@@ -1,0 +1,26 @@
+img{
+    padding: 60px;
+    height:180px;
+    width:250px;
+    text-decoration: none;
+
+}
+button a{
+    text-decoration: none;
+   
+}
+button{
+    background-color: skyblue;
+    width: 10%;
+    height: 45PX;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+
+}
+button:hover{
+background-color: white;
+}

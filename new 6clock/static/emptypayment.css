@@ -1,0 +1,14 @@
+img{
+    padding: 60px;
+    height:180px;
+    width:250px;
+    text-decoration: none;
+
+}
+.btn {
+  width: 75px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bolder;
+}
